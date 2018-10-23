@@ -1,0 +1,304 @@
+ /*base clasees */
+.float-right{
+	float: right;
+}
+.float-left{
+	float: left;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	display: block;
+}
+.vertical-items{
+	display: inline-block;
+	vertical-align: middle;
+}
+.relative{
+	position: relative;
+}
+.d-flex{
+	display: flex;
+}
+/* base clasees */
+
+
+body{
+	padding-top: 100px;
+}
+
+
+/*<header styles>*/
+.logo{
+	width: 100px;
+}
+.header-wrapper{
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+}
+.social-a:after{
+	content: "";
+	width: 3px;
+	height: 30px;
+	background-color: #3D58A6;
+	margin: auto 15px;
+}
+.social-li.search .social-a:after{
+	display: none;
+}
+.social-a img{
+	height: 30px;
+}
+.navigation-a{
+	font-size: 24px;
+	font-family: "roboto";
+	color: #3D58A6;
+	padding: 0 15px;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	height: 100px;
+	z-index: 500;
+}
+/*<header styles>*/
+
+/* banner section */
+.banner-section{
+	/*position: sticky;*/
+	top: 0;
+	z-index: 30;
+	background-color: #E6E6E6;
+	padding: 30px 0;
+	/*padding-bottom: 100px;*/
+}
+.white-logo{
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	width: 100px;
+	/*transition: right .3s linear 1s;*/
+	animation: anim .4s linear;
+}
+.white-logo:hover{
+	right: 40px;
+}
+.banner-ul{
+	transition: bottom .3s linear;
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+}
+.banner-li{
+	font-size: 30px;
+	color: #fff;
+	/*background-color: red;*/
+	transition: color .3s linear, background-color .3s linear;
+	font-family: "roboto";
+}
+.banner-li:hover{
+	color: #3D58A6;
+	background-color: gray;
+}
+/* banner section */
+
+/* video secion */
+
+
+.video-section{
+	background-color: #363E97;
+	padding-bottom: 90px;
+}
+.video-title{
+	color: #fff;
+	font-size: 24px;
+	padding: 35px 0;
+	font-family: "roboto";
+}
+.video-title:hover a{
+	color: #EE4036;
+}
+.video-title span{
+	padding-top: 5px;
+}
+.video-title a{
+	color: #fff;
+	font-family: "ingiriArial";
+	margin-left: 10px;
+	transition: color .3s linear;
+}
+.video h1{
+	position: absolute;
+    transform: translate(-50%, 50%);
+    top: 50%;
+    left: 50%;
+}
+.video-wrapper{
+	justify-content: space-between;
+}
+.video:hover{
+	border: 15px solid #000;
+	/*left:0;*/
+}
+.video{
+	transition: border 3s linear;
+	border: 15px solid transparent;
+	width: 570px;
+	/*right: 0;*/
+	height: 320px;
+	background-color: #fff;
+}
+/* video secion */
+
+/*<photo section*/
+.photos-section{
+	background-color: #BDCCD4;
+    padding-bottom: 90px;
+}
+.text-title{
+	color: #3D58A6;
+	font-size: 24px;
+	padding: 35px 0;
+	font-family: "roboto";
+}
+.text-title:hover a{
+	color: #EE4036;
+}
+.text-title span{
+	padding-top: 5px;
+}
+.text-title a{
+	color: #3D58A6;
+	font-family: "ingiriArial";
+	margin-left: 10px;
+	transition: color .3s linear;
+}
+.photos-wrapper{
+	justify-content: space-between;
+}
+/*<photo section*/
+
+/*<!-- <white section -->*/
+
+.white-section{
+	background-color: #E6E6E6;
+	 padding-bottom: 90px;
+}
+.text-title1{
+	color: #000000;
+	font-size: 24px;
+	padding: 35px 0;
+	font-family: "roboto";
+}
+.text-title1:hover a{
+	color: #EE4036;
+}
+.text-title1 span{
+	padding-top: 5px;
+}
+.text-title1 a{
+	color: #000000;
+	font-family: "ingiriArial";
+	margin-left: 10px;
+	transition: color .3s linear;
+}
+.text-feature{
+	display: inline-block;
+	
+
+}
+.white-wrapper{
+	margin-top: 30px;
+	margin-bottom: 65px;
+	justify-content: space-between;
+}
+.box:hover{
+	border: 3px solid #EE4036;
+}
+.box{
+	transition: border 3s linear;
+	border: 3px solid transparent;
+	background-color: #F2F2F2;
+	padding: 15px 30px;
+	display: inline-block;
+	width: 570px;
+	margin-bottom: 5px;
+}
+.box.box p{
+	font-family: "roboto";
+}
+.box:first-child{
+	margin-right: 15px;
+}
+.title-h5 {
+	color: #3D58A6;
+	margin-bottom: 15px;
+	font-size: 22px;
+	font-family: "roboto";
+}
+.title-h6 {
+	color: #3D58A6;
+	margin-bottom: 15px;
+	font-size: 22px;
+	font-family: "roboto";
+}
+.finger{
+	font-family: "roboto";
+	height: 130px;
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	margin-bottom: 25px;
+}
+.mobile{
+	height: 130px;
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	margin-bottom: 25px;
+}
+.feature-link {
+	display: block;
+	text-align: right;
+}
+.text{
+	font-family: "roboto";
+	display: inline-block;
+}
+.design_img{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.design_text{
+    display: inline-block;
+    width: 340px;
+   
+}
+
+
+/*<!-- <white section -->*/
+
+/*<!-- <footer -->*/
+.footer{
+	height: 60px;
+	background-color: #fff;
+}
+
+.footer .footer-content{
+	height: 100%;
+}
+.feature-link{
+	color: #3D58A6;
+	font-family: "roboto";
+	font-size: 14px;
+}
+
+/*<!-- <footer -->*/
